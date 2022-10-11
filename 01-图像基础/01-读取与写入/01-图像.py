@@ -5,7 +5,7 @@
 
 # 读取图像并显示
 import cv2
-img = cv2.imread("nightingale.jpg", 1)
+img = cv2.imread("nightingale.jpg", 0)
 cv2.imshow("nightingale", img)
 rt = cv2.waitKey()
 if rt == ord('a'):
