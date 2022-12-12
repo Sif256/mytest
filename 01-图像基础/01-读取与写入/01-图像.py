@@ -9,6 +9,6 @@ img = cv2.imread("nightingale.jpg", 0)
 cv2.imshow("nightingale", img)
 rt = cv2.waitKey()
 if rt == ord('a'):
-    print('关闭窗口！')
+    print('关闭窗口！!')
 cv2.imwrite("d:/nightingale.jpg", img, [cv2.IMWRITE_JPEG_QUALITY, 99])
 cv2.destroyAllWindows()
